@@ -11,10 +11,16 @@ html, body {
     scrollbar-width: thin !important;
     scrollbar-color: #444 #ccc;
     font-family: 'Comfortaa', cursive;
+    --accent: #aa66ff;
+    --accenttrans: #aa66ffee;
+    --accenttranser: #aa66ffaa;
 
-    --accent: #ff66aa; 
-    --accenttrans: #ff66aaee; 
-    --accenttranser: #ff66aaaa; 
+
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+-webkit-text-size-adjust: 100%;
+color: #666;
 }
 
 .oui-button {
@@ -35,24 +41,24 @@ html, body {
     -webkit-transition: all 0.4s cubic-bezier(0, .23, 0, .93);
 }
 
-.oui-b-dark{
+.oui-b-dark {
     background-color: var(--accenttranser) !important;
     color: white;
     filter: drop-shadow(0px 0px 5px var(--accent)) !important;
 }
 
-
-.oui-b-dark:hover{
+.oui-b-dark:hover {
     background-color: var(--accent) !important;
     color: white;
     filter: drop-shadow(0px 0px 5px var(--accent)) !important;
 }
 
-.oui-b-light{
+.oui-b-light {
     background-color: #ffffffdd !important;
     color: var(--accent);
 }
-.oui-b-light:hover{
+
+.oui-b-light:hover {
     background-color: #ffffff !important;
     color: var(--accent);
     filter: drop-shadow(0px 0px 5px #FFFFFF) !important;
@@ -65,6 +71,11 @@ html, body {
     -webkit-transition: all 0.2s cubic-bezier(0, .23, 0, .93);
 }
 
+.oui-b-right{
+    float: right !important;
+    margin-left: auto;
+}
+
 .oui-navbar {
     display: flex;
     position: relative;
@@ -75,4 +86,20 @@ html, body {
     width: 100%;
     padding: 10px;
     align-items: center;
+}
+
+.oui-nav-inner {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.oui-navlogo {
+    height: 28px !important;
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    margin-right: 2px;
 }
