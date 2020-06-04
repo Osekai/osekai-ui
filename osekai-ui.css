@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: FontAwesomeExtra;
+    src: url(fa-extra.woff2);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin !important;
+    scrollbar-color: #444 #ccc;
+    font-family: 'Comfortaa', cursive;
+}
+
