@@ -13,3 +13,27 @@ html, body {
     font-family: 'Comfortaa', cursive;
 }
 
+.oui-button{
+	font: inherit;
+	color: inherit;
+	border-radius: 0;
+	display: inline-block;
+	padding: 0 30px;
+	font-size: .875rem;
+	line-height: 38px;
+    border-radius: 5px;
+    border: none;
+	color: #ffffff;
+	border-radius: 5px;
+	background-color: #FF66AAEE !important;
+	filter: drop-shadow(0px 0px 5px #00000022);
+    transform: scale(1);
+    -webkit-transition: all 0.4s cubic-bezier(0, .23, 0, .93);
+}
+
+.oui-button:hover{
+    background-color: #FF66AA !important;
+	filter: drop-shadow(0px 0px 5px #FF66AA);
+    transform: scale(1.15);
+    -webkit-transition: all 0.2s cubic-bezier(0, .23, 0, .93);
+}
