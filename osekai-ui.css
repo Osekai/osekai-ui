@@ -11,29 +11,68 @@ html, body {
     scrollbar-width: thin !important;
     scrollbar-color: #444 #ccc;
     font-family: 'Comfortaa', cursive;
+
+    --accent: #ff66aa; 
+    --accenttrans: #ff66aaee; 
+    --accenttranser: #ff66aaaa; 
 }
 
-.oui-button{
-	font: inherit;
-	color: inherit;
-	border-radius: 0;
-	display: inline-block;
-	padding: 0 30px;
-	font-size: .875rem;
-	line-height: 38px;
+.oui-button {
+    font: inherit;
+    color: inherit;
+    border-radius: 0;
+    display: inline-block;
+    padding: 0 30px;
+    font-size: .875rem;
+    line-height: 38px;
     border-radius: 5px;
     border: none;
-	color: #ffffff;
-	border-radius: 5px;
-	background-color: #FF66AAEE !important;
-	filter: drop-shadow(0px 0px 5px #00000022);
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: var(--accenttrans);
+    filter: drop-shadow(0px 0px 5px #00000022);
     transform: scale(1);
     -webkit-transition: all 0.4s cubic-bezier(0, .23, 0, .93);
 }
 
-.oui-button:hover{
-    background-color: #FF66AA !important;
-	filter: drop-shadow(0px 0px 5px #FF66AA);
+.oui-b-dark{
+    background-color: var(--accenttranser) !important;
+    color: white;
+    filter: drop-shadow(0px 0px 5px var(--accent)) !important;
+}
+
+
+.oui-b-dark:hover{
+    background-color: var(--accent) !important;
+    color: white;
+    filter: drop-shadow(0px 0px 5px var(--accent)) !important;
+}
+
+.oui-b-light{
+    background-color: #ffffffdd !important;
+    color: var(--accent);
+}
+.oui-b-light:hover{
+    background-color: #ffffff !important;
+    color: var(--accent);
+    filter: drop-shadow(0px 0px 5px #FFFFFF) !important;
+}
+
+.oui-button:hover {
+    background-color: var(--accent);
+    filter: drop-shadow(0px 0px 5px var(--accent));
     transform: scale(1.15);
     -webkit-transition: all 0.2s cubic-bezier(0, .23, 0, .93);
+}
+
+.oui-navbar {
+    display: flex;
+    position: relative;
+    height: 61px;
+    padding-right: 0 !important;
+    background-color: var(--accent) !important;
+    box-shadow: 0px 0px 15px #00000044;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
 }
