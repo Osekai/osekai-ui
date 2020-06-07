@@ -4,6 +4,8 @@
     src: url(fa-extra.woff2);
 }
 
+* { margin:0; padding:0; }
+
 html, body {
     height: 100%;
     margin: 0;
@@ -79,18 +81,18 @@ color: #666;
 .oui-navbar {
     display: flex;
     position: relative;
-    height: 61px;
-    padding-right: 0 !important;
+    min-height: 61px;
+  
     background-color: var(--accent) !important;
     box-shadow: 0px 0px 15px #00000044;
     width: 100%;
-    padding: 10px;
+    
     align-items: center;
 }
 
 .oui-nav-inner {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     position: relative;
     align-items: center;
