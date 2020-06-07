@@ -132,6 +132,17 @@ html, body {
 
 .oui-p-header {
     color: var(--accent);
+    margin: 0;
+    padding: 0;
+}
+
+.oui-p-subheader {
+    color: var(--accent);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 10px;
+    margin-bottom: 10px;
 }
 
 .oui-panel {
