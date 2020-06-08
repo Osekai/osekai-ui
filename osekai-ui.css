@@ -22,7 +22,6 @@ html, body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    -webkit-text-size-adjust: 100%;
     color: #666;
     background-color: #eee;
 }
@@ -42,7 +41,7 @@ html, body {
     background-color: var(--accenttrans);
     filter: drop-shadow(0px 0px 5px #00000022);
     transform: scale(1);
-    -webkit-transition: all 0.4s cubic-bezier(0, .23, 0, .93);
+    transition: all 0.4s cubic-bezier(0, .23, 0, .93);
 }
 
 .oui-b-dark {
@@ -72,7 +71,7 @@ html, body {
     background-color: var(--accent);
     filter: drop-shadow(0px 0px 5px var(--accent));
     transform: scale(1.15);
-    -webkit-transition: all 0.2s cubic-bezier(0, .23, 0, .93);
+    transition: all 0.2s cubic-bezier(0, .23, 0, .93);
 }
 
 .oui-b-right {
@@ -109,20 +108,20 @@ html, body {
 .oui-panelscroller {
     width: 900px;
     margin: auto;
-    -webkit-transition: all 0.2s cubic-bezier(0, .23, 0, .93);
+    transition: all 0.2s cubic-bezier(0, .23, 0, .93);
 }
 
 @media (max-width:960px) {
     .oui-panelscroller {
         width: 700px;
-        -webkit-transition: all 0.2s cubic-bezier(0, .23, 0, .93);
+        transition: all 0.2s cubic-bezier(0, .23, 0, .93);
     }
 }
 
 @media (max-width:740px) {
     .oui-panelscroller {
         width: 95%;
-        -webkit-transition: all 0.2s cubic-bezier(0, .23, 0, .93);
+        transition: all 0.2s cubic-bezier(0, .23, 0, .93);
     }
 }
 
@@ -142,7 +141,7 @@ html, body {
     margin: 0;
     padding: 0;
     line-height: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .oui-panel {
@@ -150,7 +149,7 @@ html, body {
     background-color: #fefefe;
     border-radius: 10px;
     filter: drop-shadow(0px 0px 10px #0003);
-    -webkit-transition: all 0.2s cubic-bezier(0, .23, 0, .93);
+    transition: all 0.2s cubic-bezier(0, .23, 0, .93);
 }
 
 .oui-panel-insidecont {
@@ -165,23 +164,20 @@ input[type="radio"]+label .oui-radiobutton-true {
     display: inline-block;
     width: 25px;
     height: 25px;
-    margin: 0;
-    margin-top: -7px;
     vertical-align: middle;
     border: 3px solid var(--accent);
     cursor: pointer;
     box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     border-radius: 500px;
     filter: drop-shadow(0px 0px 1px var(--accent));
-    margin-right: 10px;
     margin: 0 auto;
+    margin-right: 10px;
 }
 
 .innercont{
     display: flex; 
     justify-content: center;
+    height: 100%;
 }
 
 span {
@@ -196,8 +192,6 @@ input[type="radio"]+label .oui-radiobutton-on {
     vertical-align: middle;
     cursor: pointer;
     box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     border-radius: 500px;
     filter: drop-shadow(0px 0px 1px var(--accent));
     margin-right: 10px;
