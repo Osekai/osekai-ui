@@ -6,3 +6,6 @@ you can download it from https://raw.githubusercontent.com/osekai/osekai-ui/mast
 
 ## how do i use?
 please read the wiki
+
+## can i contribute?
+yeah, please! - if you have any specific things you want to code into the css, make an issue for it and i'll supply designs, and how i think it would be laid out.
