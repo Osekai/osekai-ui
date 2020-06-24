@@ -15,7 +15,7 @@ html, body {
     padding: 0;
     scrollbar-width: thin !important;
     scrollbar-color: #444 #ccc;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', arial;
     --accent: #aa66ff;
     --accenttrans: #aa66ffee;
     --accenttranser: #aa66ffaa;
@@ -34,10 +34,10 @@ html, body {
     padding: 0 30px;
     font-size: .875rem;
     line-height: 38px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     color: #ffffff;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: var(--accenttrans);
     filter: drop-shadow(0px 0px 5px #00000022);
     transform: scale(1);
@@ -94,7 +94,9 @@ html, body {
     box-shadow: 0px 0px 15px #00000044;
     width: 100%;
     align-items: center;
-    animation: 0.4s cubic-bezier(0, .23, 0, .93) 0s 1 slidedown;
+    position: sticky;
+    position: fixed;
+    z-index: 50000;
 }
 
 .oui-nav-inner {
@@ -106,7 +108,7 @@ html, body {
 }
 
 .oui-navlogo {
-    height: 28px !important;
+    height: 28px;
     padding: 0;
     margin: 0;
     padding-top: 5px;
@@ -142,6 +144,7 @@ html, body {
     animation: 0.4s cubic-bezier(0, .23, 0, .93) 0s 1 slideup;
     -webkit-transition: all 0.4s cubic-bezier(0, .23, 0, .93) !important;
     margin-bottom: 50px;
+    margin-top: 70px;
 }
 
 @media (max-width:960px) {
@@ -166,6 +169,7 @@ html, body {
     color: var(--accent);
     margin: 0;
     padding: 0;
+    font-size: 32px;
 }
 
 .oui-p-subheader {
@@ -257,4 +261,46 @@ input[type="radio"]:checked+label .oui-radiobutton-on {
 
 .oui-flex {
     display: flex;
+}
+
+.oui-textbox {
+    padding: 8px;
+    border: none;
+    background-color: #fff;
+    filter: drop-shadow(0 0 6px #0003);
+    color: var(--accent);
+    border-radius: 8px;
+    font-size: 16px;
+    width: 50%;
+    font-weight: 800;
+    font-family: "Comfortaa";
+    display: inline;
+    vertical-align: middle;
+    transition: all 0.2s cubic-bezier(0, .23, 0, .93);
+}
+
+.oui-textbox:focus {
+    background-color: #fff;
+    filter: drop-shadow(0 0 6px var(--accent));
+    color: var(--accent);
+    transition: all 0.2s cubic-bezier(0, .23, 0, .93);
+}
+
+.oui-textbox-100 {
+    width: 100%;
+}
+
+.oui-textbox-label {
+    color: var(--accent);
+    font-size: 25px !important;
+    padding-right: 10px;
+    font-weight: 800;
+    width: auto;
+    display: inline;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.oui-tbcontainer {
+    display: inline;
 }
