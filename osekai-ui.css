@@ -137,14 +137,13 @@ html, body {
         opacity: 1;
     }
 }
-
 .oui-panelscroller {
     width: 900px;
     margin: auto;
     animation: 0.4s cubic-bezier(0, .23, 0, .93) 0s 1 slideup;
     -webkit-transition: all 0.4s cubic-bezier(0, .23, 0, .93) !important;
     margin-bottom: 50px;
-    margin-top: 70px;
+    padding-top: 100px;
 }
 
 @media (max-width:960px) {
