@@ -9,7 +9,8 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -137,6 +138,7 @@ html, body {
         opacity: 1;
     }
 }
+
 .oui-panelscroller {
     width: 900px;
     margin: auto;
@@ -305,16 +307,16 @@ input[type="radio"]:checked+label .oui-radiobutton-on {
 }
 
 .oui-footer {
-	display: flex;
-	position: absolute;
-	min-height: 61px;
-	background-color: var(--accent) !important;
-	box-shadow: 0px 0px 15px #00000044;
-	width: 100%;
-	align-items: center;
-	position: fixed;
-	left: 0;
-	bottom: 0;
+    display: flex;
+    position: absolute;
+    min-height: 61px;
+    background-color: var(--accent) !important;
+    box-shadow: 0px 0px 15px #00000044;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 .oui-dropdown {
@@ -334,4 +336,50 @@ input[type="radio"]:checked+label .oui-radiobutton-on {
     -moz-appearance: none;
     appearance: none;
     /* Remove default arrow */
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.oui-table-header-th {
+    text-align: left;
+    padding: 5px;
+    margin-top: 5px !important;
+    color: var(--accent);
+    font-weight: 800;
+}
+
+.oui-table-tr {
+    display: flex;
+    table-layout: fixed;
+    margin-bottom: 5px;
+    color: var(--accent);
+}
+
+.oui-table-td {
+    width: 100%;
+    text-align: left;
+    border-bottom: 0px solid black;
+    padding: 5px;
+    background-color: #eee;
+}
+
+.oui-table {
+    border-collapse: separate;
+    border-spacing: 0 0px;
+}
+
+table {
+    width: 100%;
+}
+
+.oui-table-td:first-child {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.oui-table-td:last-child {
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
 }
