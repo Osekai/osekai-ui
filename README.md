@@ -9,3 +9,8 @@ please read the wiki
 
 ## can i contribute?
 yeah, please! - if you have any specific things you want to code into the css, make an issue for it and i'll supply designs, and how i think it would be laid out.
+
+## used by
+[Osekai Polls](https://osekai.net/polls/) - Osekai<br> 
+[Osekai Homepage](https://osekai.net) - Osekai<br>
+[Cubey's Adventures](https://cibey.hubza.co.uk/) - Team Cubey
