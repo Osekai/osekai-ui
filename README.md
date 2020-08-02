@@ -13,4 +13,4 @@ yeah, please! - if you have any specific things you want to code into the css, m
 ## used by
 [Osekai Polls](https://osekai.net/polls/) - Osekai<br> 
 [Osekai Homepage](https://osekai.net) - Osekai<br>
-[Cubey's Adventures](https://cibey.hubza.co.uk/) - Team Cubey
+[Cubey's Adventures](https://cubey.hubza.co.uk/) - Team Cubey
