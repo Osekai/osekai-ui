@@ -1,3 +1,5 @@
+## this framework has been discontinued in favour of osekai eclipse custom css. the new css won't be open sourced for a while.
+
 ![](https://i.ppy.sh/2c4cd0b00d7a9db1d3e682ef6a3c94b9845900b0/68747470733a2f2f6f73656b61692e6e65742f696d672f6f75692d70616e656c2e706e67)
 
 ## how do i install?
